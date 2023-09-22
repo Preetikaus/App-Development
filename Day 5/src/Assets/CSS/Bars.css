@@ -1,0 +1,115 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.container3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: transparent;
+}
+
+body {
+    background-image: url("../Images/Dashboard.jpg");
+    opacity: 1.5;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    color: #000;
+    font-family: monospace;
+
+}
+
+.topbar {
+    background: rgba(63, 61, 61, 0.2); /* Semi-transparent white background color */
+    backdrop-filter: blur(10px);
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+    height: 5%;
+    width: 100%;
+    /* padding: .5rem; */
+    align-items: center;
+    box-shadow:
+        0px 8px 18px rgba(38, 38, 39, 0.7);
+}
+
+.user {
+    position: absolute;
+    right: 1%;
+}
+.username-color{
+    color:rgb(249, 248, 250);
+}
+.left-bar {
+    background: rgba(63, 61, 61, 0.2);  /* Semi-transparent white background color */
+    backdrop-filter: blur(10px);
+    color: #000000;
+    height: 100%;
+    position: fixed;
+    width: 10%;
+    left: 0;
+    top: 0;
+    box-shadow:
+        0px 8px 18px  rgba(38, 38, 39, 0.7);
+}
+
+.left-bar-container {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.8rem;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.left-bar-button {
+    border: none;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    color: rgb(51, 50, 50);
+    border-left: 4px solid rgb(17, 17, 17);
+    border-right: 6px solid #19191ab4;
+}
+
+
+.nav-btn {
+    padding: 1rem;
+    display: flex;
+    width: 90%;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: .4s;
+    box-shadow:
+        0.2px 0.2px 1.6px -2px rgba(0, 0, 0, 0.036),
+        0.2px 0.2px 2.4px -2px rgba(0, 0, 0, 0.053),
+        0.3px 0.3px 3px -2px rgba(0, 0, 0, 0.065),
+        0.4px 0.4px 3.4px -2px rgba(0, 0, 0, 0.075),
+        0.4px 0.4px 3.7px -2px rgba(0, 0, 0, 0.085),
+        0.5px 0.5px 4px -2px rgba(0, 0, 0, 0.095),
+        0.5px 0.5px 4.4px -2px rgba(0, 0, 0, 0.105),
+        0.6px 0.6px 4.9px -2px rgba(0, 0, 0, 0.117),
+        0.7px 0.7px 5.7px -2px rgba(0, 0, 0, 0.134),
+        1px 1px 8px -2px rgba(0, 0, 0, 0.17);
+}
+
+.left-bar-button:hover {
+    border-right: 0px;
+    border-left: 6px solid rgb(189, 7, 7);;
+    background-color:rgb(129, 126, 124);;
+    color: #fff;
+}
+
+.left-bar-button-logout:hover {
+    border-right: 0px;
+    border-left: 6px solid rgb(255, 29, 29);
+    background-color: #af0101;
+    color: #ffffff;
+}
