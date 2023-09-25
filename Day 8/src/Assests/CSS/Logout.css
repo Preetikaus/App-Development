@@ -1,0 +1,47 @@
+.logout
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: "Inter";
+}
+
+.logout_button
+{
+    min-width: 300px;
+    padding: 17px 30px;
+    margin-top: 20px;
+    background: rgba(182, 16, 69, 0.7);
+    box-shadow:
+        1px 1px 10px 9px rgba(255, 255, 255, 0.7);
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-family: "Inter";
+    border-radius: 3px;
+}
+.user_name
+{
+    color: rgb(254, 255, 255);
+}
+.column-3
+{
+    display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 30%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background: rgba(110, 138, 207, 0.418); /* Semi-transparent white background color */
+  backdrop-filter: blur(10px); /* Apply a background blur effect */
+  height: 40%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  transition: box-shadow 0.5s ease-in-out;
+  backdrop-filter: blur(10px);
+}
