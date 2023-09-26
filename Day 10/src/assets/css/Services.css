@@ -1,0 +1,106 @@
+.services {
+    background-image: url('../imgs/Services.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+
+h1.heading {
+    font-size: 60px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-family: Poppins, sans-serif;
+    margin-bottom: 10px;
+ }
+
+ p.heading.p__color {
+    margin-bottom: 0;
+    text-align: center;
+    line-height: 1.2;
+ }
+
+ .service__box {
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 55px;
+    transition: .4s ease;
+ }
+
+ .service__box:hover {
+    transform: translateY(5px);
+    background-image: linear-gradient(90deg, #83c7ff, #53b9e1);
+ }
+
+ .service__box:hover .icon {
+    color: #fff;
+ }
+
+ .service__box:hover p.service__text .p__color {
+          color: #fff !important;
+ }
+
+ .icon {
+    font-size: 54px;
+    font-weight: 400;
+    margin-bottom: 23px;
+    display: inline-flex;
+    color: #0029f3;
+ }
+
+ p.service__text.p__color {
+    margin-bottom: 0;
+ }
+
+ h1.service__text {
+    font-size: 19px;
+    font-family: Poppins, sans-serif;
+    padding: 10px 0px;
+ }
+
+ @media only screen and (max-width: 1024px) {
+      .service__box {
+        padding: 32px;
+      }
+ }
+ li {
+    overflow: hidden;
+ }
+ 
+ p {
+    font-size: 16px;
+    font-family: Poppins, sans-serif;
+ }
+ svg {
+    stroke-width: 1 !important;
+    margin-top: 10px;
+ }
+ .col__3 {
+    max-width: 33.333333%;
+    display: flex;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  .row {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    overflow: hidden;
+    align-items: flex-start;
+    justify-content: center;
+ }
+ .container {
+    width: 80%;
+    margin: 0px auto;
+ } 
